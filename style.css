@@ -1,0 +1,79 @@
+.gradient-background {
+    /*background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;*/
+    background-color: #ECF8F9;
+  }
+ .blue-background{
+  background-color:#85a2d0;
+ }
+ #pro{
+  color: #35bab6;
+  text-decoration: underline;
+ }
+ span{
+  color: #000;
+  font-weight: 900;
+ }
+.img-container{
+  position: absolute;
+  width: 100%; 
+  height:400px;
+}
+.text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-left: 40px;
+  position: relative;
+  font-family: 'Dancing Script', cursive;
+  color: aliceblue;
+  font-size: 5rem;
+}
+.text-circle{
+  border-radius: 50%;
+  padding: 25px;
+  background-color: rgba(1, 23, 26, 0.758);
+}
+#title{
+  position: relative;
+  top: 200px;
+}
+#body{
+  position: relative;
+  top: 200px;
+  overflow-y: visible;
+}
+.text-body{
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+.footer-container{
+  position: relative;
+  top: 200px;
+  width: 100%;
+  background-color: #068DA9;
+  text-align: center;
+  padding: 50px;
+}
+.footer-container>a{
+  margin: 20px;
+}
+#contact{
+  position: relative;
+  top:200px;
+  text-align: center;
+}
+.contact-btn{
+  --bs-btn-font-size: 1.25rem; 
+  font-weight: 600; 
+  background-color: #11cdd4;
+  border-radius: 25px;
+}
+ @media (max-width: 576px){
+  #body{
+    overflow-x: scroll;
+  }
+
+}
